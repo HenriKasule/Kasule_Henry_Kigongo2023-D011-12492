@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-semibold" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-semibold" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <header class="hero text-center text-white py-5">
+    <div class="container">
+      <h1 class="fw-bold">Welcome to My Portfolio</h1>
+      <p class="lead">Discover more about me and my work!</p>
+    </div>
+  </header>
+
+  
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-primary mb-4">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="lead">Hi, I’m [Kasule Henry]. I love football and Mohammed Salah is my favorite player, during my leisure i spend my whole time playing soccer. My hobbies include photography, reading, and exploring new places. Welcome to my portfolio!</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="salah.jpeg" alt="Your Profile" class="img-fluid rounded-circle shadow" style="width: 250px; height: 200px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-primary mb-4">Contact Me</h2>
+      <form id="contactForm" class="w-75 mx-auto">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  
+  <footer class="text-center bg-dark text-white py-3">
+    <p>© 2024 Your Kasule Henry | Designed it with Love[♥]</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html
